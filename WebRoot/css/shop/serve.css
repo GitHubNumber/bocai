@@ -1,0 +1,61 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;}
+body{width:100%; margin:0 auto;}
+a{color:#666; text-decoration:none;}
+a:hover{text-decoration:underline;}
+li{ list-style-type:none;
+}
+i{ font-style:normal;
+}
+.serve1main{ width:980px; height:600px; margin:0 auto;
+}
+.maintop{ height:50px; line-height:50px; border-bottom:1px solid #e1e1e1;
+}
+.maintop h3{ float:left;
+}
+.maintop a{ font-size:12px; color:#316eb1;
+}
+.maincenter{ width:980px; 
+}
+.maincenter h3{ float: left;font-size:16px; color:#4d4d4d; font-weight:normal;
+}
+.maincenter i{ color:#f9743c; font-weight:bold;
+}
+.centertop{ height:60px; line-height:60px;
+}
+.opt img{ display:block; margin:25px auto;
+}
+.opt label{ float:left; width:100px; height:100px; line-height:100px;
+}
+.opt li{ height:100px; line-height:100px; border-bottom:1px dashed #CCC; width:650px;
+}
+#butt{ display:block;margin:35px auto; background-image:url(../images/user/button.png); width:104px; height:31px;
+}
+.opt h3{ width:380px;
+}
+.endmain{ width:980px; margin-top:10px; 
+}
+.endmain h3{ color:#000; font-size:16px; height:40px; line-height:40px;
+}
+.endmain li{ font-size:14px; color:#8d8d8d; margin-bottom:4px;
+}
+.endmain ol{ font-size:12px; color:#4d4d4d;
+}
+.endmain h4 a{ font-size:12px; color:#1972d8; font-weight:normal; height:30px; line-height:30px;
+}
+.serve{ height:200px;
+}
+.serve li{ height:40px; line-height:40px;
+}
+.serveul{ width:500px; color:#777; font-size:14px;
+}
+.serveul input{ height:23px; width:175px;
+}
+.serveul label{ float:left; width:150px; text-align:right; 
+}
+.serve img{ vertical-align:middle; margin-left:10px;cursor:pointer; 
+}
+#chick{ width:80px;
+}
+#submit1{ width:82px; height:31px; border:0px; background-image:url(../images/user/queding.png); cursor:pointer; 
+}

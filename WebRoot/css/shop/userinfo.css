@@ -1,0 +1,66 @@
+* {margin: 0px;padding: 0px;}
+body{ width:1000px; background-color:#f5f0e9; margin-left:20px;
+}
+TABLE {
+	BORDER-COLLAPSE: collapse; EMPTY-CELLS: show ;
+}
+img{ border:0;
+}
+li{ list-style-type:none;
+}
+a{ text-decoration:none;
+}
+i{ font-style:normal; cursor:pointer;
+}
+.top ul{ height:50px; line-height:50px; textAlign:center;
+}
+.commodity{display:block; text-align:center; width:130px; height:30px; line-height:30px; background-color:#8c8c8c; border:1px solid #d5d5d5; color:#FFF; border-radius: 3px; font-weight:bold; float:left; cursor:pointer; margin-left:10px; margin-bottom:5px; margin-top:5px;
+}
+.closeall{ width:100%; height:100%;position: absolute; top: 0%;left: 0%;background-color: black;z-index:1001;-moz-opacity: 0.8; 
+ opacity:.50;filter: alpha(opacity=50); display:none;
+}
+.commodity:hover{ background-color:#747373;
+}
+.infomain{
+}
+.demo_top{height:33px; line-height:33px; background-color:#8c8c8c;color:#FFF;border-radius: 3px;
+}
+.demo_metter{ text-align:left;
+}
+.demo_metter li{ width:480px; height:30px; line-height:30px;border-bottom:1px dashed #CCCCCC; margin-left:10px;
+}
+.demo_metter span{ float:right;vertical-align:middle;
+}
+.demo1{clear:both; min-height:400px; width:1000px; padding-bottom:10px; border:1px solid #CCCCCC;border-radius: 3px;float:left;
+}
+
+.ul1{ width:500px; float:left;
+}
+.ul1 label{ width:120px; float:left;
+}
+.ul2{ width:500px;float:left;
+}
+.ul2 label{ width:120px; float:left;
+}
+.autograph{ clear:both; width:980px; height:200px; float:left; margin-left:10px;
+}
+.autograph i{ display:block; margin-left:50px; margin:10px auto;border:1px solid #ccc;width:900; height:150px;border-radius: 3px;
+}
+#change{ width:300px; height:20px;
+}
+.sendmailbox{clear:both; background:#FFF; min-height:400px; width:500px; height:450px; padding-bottom:10px; border:1px solid #CCCCCC;border-radius: 3px;float:left;position: absolute; top: 10%;left: 20%;z-index:1003; display:none;
+}
+.sendmailbox ul{ width:480px;
+}
+.sendmailbox ul li{ width:480px; border-bottom:0px;
+}
+.sendmailbox textarea{ width:480px; height:300px;
+}
+#demo_metter1{ width:480px; height:300px;30px;
+}
+.demo_metter2{ width:480px; height:30px;
+}
+.demo_metter2 a{ float:left;
+}
+.demo_metter2 input{float: right;
+}

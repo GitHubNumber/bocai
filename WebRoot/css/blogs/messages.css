@@ -1,0 +1,27 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;}
+body{width:100%; margin:0 auto;font:12px "宋体";}
+img,input,select{border:0; vertical-align:middle;}
+li{ list-style-type: none;}
+a{text-decoration:none;color:blue;
+}
+a:hover{ text-decoration:none;
+}
+a:VISITED{
+	color:blue;
+}
+.blogs_nav a{text-decoration:none;color:#1D79A6
+}
+.blogs_nav a:hover{ text-decoration:underline;color:#1D79A6
+}
+.blogs_nav a:VISITED{
+	color:#1D79A6
+}
+#sub{display: block;width: 46px;height: 22px;background-image: url("../../images/blogs/button.png");}
+.ifrom{margin-top: 5px;}
+.msg{ width: 700px; min-height: 180px; margin-top: 5px;}
+.msg li{border-top: 1px dashed #bcb4b4;padding-top: 10px; float: left; margin-bottom: 5px;}
+.left{float: left;margin-left: 10px;}
+.del{float: right; padding-right: 10px;}
+.margin-top{margin-top: 5px;}
+.user{padding-left: 10px; margin-left: 10px; font: 14px bolder '黑体';}

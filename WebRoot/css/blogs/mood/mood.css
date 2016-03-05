@@ -1,0 +1,111 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;}
+body{width:100%; margin:0 auto;font:12px "宋体";}
+img,select{border:0; vertical-align:middle;}
+li{ list-style-type:none;
+}
+a{text-decoration:none;color:blue;
+}
+a:hover{ text-decoration:none;
+}
+a:VISITED{
+	color:blue;
+}
+.blogs_nav a{text-decoration:none;color:#1D79A6
+}
+.blogs_nav a:hover{ text-decoration:underline;color:#1D79A6
+}
+.blogs_nav a:VISITED{
+	color:#1D79A6
+}
+.blogs_top{border-bottom:1px solid #CCC; background-color:#f7f7f7;
+	height:26px; line-height:26px;
+}
+.blogs_top span{ float:right; margin-right:15px;
+}
+.blogs_top div{ margin-left:15px;
+}
+.blogs_main{ width:980px;  margin:0 auto; margin-top:30px; min-height:300px;}
+/*除了这个图片其他的都不能用,路径错误且无指定图片*/
+.blogs_header{ width:980px; height:133px; background-image:url(../../../images/blogs/header.png); background-repeat:no-repeat; color:#007dbd;
+font-size:14px; font-weight:bold; border:1px solid #CCCCCC;
+}
+.blogs_headtop{ padding-top:30px;width:980px; float: left;
+}
+.blogs_headtop li{ margin-left:25px;}
+.blogs_li1{ font-weight:normal; margin-top:4px;
+}
+.blogs_nav a{height:15px; line-height:15px; float:left; text-align:center; margin-left:50px; margin-top:28px; 
+}
+.blogs_maincenter{ width:980px; background-color: #f7ffff; margin-top: 20px; font-size: 24px;
+}
+.blogs_left{padding-top:0px; font:16px "宋体";border:10px solid; clear:both; float:left; margin-top:10px; width:700px; min-height:400px; border:1px solid #000;
+}
+.blogs_center{float:left;width:280px; margin-left:9px;margin-top:10px; min-height:400px; border: 1px solid #000;
+font:16px "宋体";text-align: center;
+}
+.content{width:975px;height:150px;visibility:hidden;}
+.asearch{ width:980px; height:34px; border:1px solid #CCC; background-color:#f2f2f2; margin-top:20px;
+}
+.asearch li{ float:left;
+}
+#zhuye{ margin-top:8px; margin-left:15px;
+}
+#zhexian{ width:77px; height:34px; background-image:url(../../../images/bbs/icon12.png); margin-left:5px;
+}
+#zhexian2{width:68px; height:34px; background-image:url(../../../images/bbs/icon12.png); margin-left:5px;}
+.asearch a{color:#333; margin-top:10px; margin-left:15px; font:12px "宋体"; display:block; height:18PX; line-height:18PX;
+}
+.asearchrigeht{ float:right;
+}
+.asearchrigeht li{ margin-right:5px; margin-top:5px;
+}
+.atitlemetter{ height:80px; width:980px; border:1px solid #CCC; margin-top:10px;
+}
+.atitlemetter span{ float:right; margin-right:10px;
+}
+.atitlemetter li{ margin-top:5px; margin-left:10px;
+}
+
+
+
+
+.mood_box{width:980px; min-height:300px; margin-bottom:30px; border: 1px solid #cccccc;margin-top: 5px;}
+.mood_left_box{width:740px; float:left; min-height:300px; border:1px #CCCCCC solid; }
+
+
+.left{float: left;margin-left: 10px; padding:10px;:25px;}
+.del{float: right; padding-right: 10px;}
+.margin-top{margin-top: 5px; }
+
+.blogs_mood_right{width:230px; float:right;  min-height:300px; border:1px #CCCCCC solid;}
+.user_information{ border:1px #CCCCCC solid;width:220px; margin:5px 0 0 5px;}
+.user_information img{ float: left; width: 80px; height: 80px; padding: 5px;}
+.user_information ul{  margin-right:40px;float:right;width: 80px;margin-top: 10px;}
+.user_information h3{ color:#00CC99;}
+.user_information a{ font-size:16px; color:#9D4F4F;}
+.date{margin-top:5px;}
+.fenye{text-align: center; margin-top:15px;padding-bottom: 20px;}
+.fenye a{margin-left:30px; }
+.btnimg{height:24px;background:#ff6600;border:0;width:80px;cursor:pointer;font-size:12px;font-weight:800;color:#fff; margin-left:30px; margin-top:5px;}
+
+/*blogs_list_mood*/
+.blogs_list_mood{border: 1px solid #cccccc; width: 710px ; min-height: 200px; margin-top:10px;margin-left: 5px;}
+.user{width: 80px; height: 100px; float: left;  margin-top:10px;margin-left:10px; }
+
+.user ul{float: left;}
+.user img{width: 80px; height: 80px;}
+
+.mood_comment{float: left;  width: 580px;min-height: 100px;}
+.context pre{max-width:480px; white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;}
+.commentAll{float: left;margin-top: 10px;  border: 1px solid #cccccc; width: 581px;min-height: 120px;margin-left: 10px;}
+.comm{float: left; margin-left: 10px;width: 880px;}
+.commAdd{margin-top: 2px;padding-top: 2px;float: right;}
+.commAdd input{float: right;}
+.myform{display: none;float: right;}
+.pinglunuser{min-width: 48px; height: 65px; border: 1px solid #ccc; text-align: center; float: left;}
+.pinglunuser img{ margin-top: 0px;}
+.pinglun{width: 800px; min-height: 65px; border: 1px solid #ccc;margin-bottom: 10px;}
+.pinglunComm{width: 738px;min-height: 60px;  float: left;padding-left: 10px; padding-top: 5px;}
+.fontcolor{color: black;}
+.blogs_publish_mood{height: 200px;border-bottom: 1px solid #ccc;margin-bottom: 10px;}

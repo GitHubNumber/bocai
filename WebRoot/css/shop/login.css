@@ -1,0 +1,70 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;}
+body{width:100%; margin:0 auto; overflow:visible;background-color:#f4f4f4;}
+a,img{border:0;}
+li{ list-style-type:none;
+}
+input{ border:1px solid #CCC;
+}
+a{cursor:pointer;
+}
+.mainnav{ width:980px; height:400px;margin:0 auto; background-color:#fff
+}
+.login{background-image:url(../images/shoppage/login_bg.png); width:450px; height:335px; margin:30px auto;
+}
+.mainnav span{ float:right; background-image:url(../images/shoppage/login_right.png); width:5px; height:335px;
+}
+.spanleft{ float:left;width:5px; height:335px; background-image:url(../images/shoppage/login_left.png);
+}
+.main{ width:400px; height:335px; padding-top:5px;margin:0 auto;
+}
+.indiv{ width:400px; min-height:250px;margin:10px auto; color:#5e5e5e; 
+}
+.indiv h4{width:400px; height:30px; line-height:30px; color:#3266cc; font-size:14px;border-bottom:1px solid #bfbfbf;
+}
+.indiv ul{ width:400px; margin-top:30px;
+}
+
+.indiv label{ width:130px; float:left; text-align:left;
+}
+.loginul label{ width:70px;
+}
+.indiv li{ height:35px; line-height:35px;position:relative;
+}
+.treaty{ height:20px; text-align:left;
+}
+#treaty input{vertical-align:middle;width:15px; height:15px; margin-left:120px;
+}
+.indiv input{ width:210px; height:28px; font-size:15px; font-weight:normal; color:#545454;
+}
+#alogin{background-image:url(../images/shoppage/login.png); width:84px; height:27px; border:0; cursor:pointer;
+}
+#aregister{ background-image:url(../images/shoppage/register.png); width:84px; height:27px; border:0; cursor:pointer;
+}
+#verification1{float:left;
+}
+.verification{ display:block; width:100px; height:42px; line-height:42px; float:left; margin-left:5px; margin-top:2px;
+}
+.vall{ position:absolute; left:350px; top:0px; display:none; width:200px;
+}
+.vall img{ margin-top: 13px;
+}
+/*share*/
+.share-con{height:38px;overflow:hidden;padding-left:10px;font:12px/180% Arial, Helvetica, sans-serif,"宋体"; color:#999;}
+.share-con span.tit{float:left;line-height:38px; width:50px; background:none; }
+.share-con a,.share-con a span{height:16px;width:16px;display:block;float:left;overflow:hidden;}
+.share-con a{padding:3px;border:solid 1px #fff;margin-top:7px;}
+.share-con a span{background-image:url(../images/shoppage/share-icon.gif);background-repeat:no-repeat;cursor:pointer;}
+.share-con a:hover{opacity:0.7;filter:alpha(opacity=70);border:solid 1px #ddd;}
+.share-con a span.copylink{background-position:0 0;}
+.share-con a span.tengxunweibo{background-position:0 -16px;}
+.share-con a span.xinlang{background-position:0 -32px;}
+.share-con a span.sohu{background-position:0 -48px;}
+.share-con a span.wangyi{background-position:0 -64px;}
+.share-con a span.qqzone{background-position:0 -80px;}
+.share-con a span.qqpengyou{background-position:0 -96px;}
+.share-con a span.renren{background-position:0 -112px;}
+.share-con a span.kaixin{background-position:0 -128px;}
+.share-con a span.taojianghu{background-position:0 -144px;}
+.share-con a span.douban{background-position:0 -160px;}
+.share-con a span.baidusoucang{background-position:0 -176px;margin-right:0px;}

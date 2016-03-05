@@ -1,0 +1,34 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;}
+body{background-color:#444; font-size:14px; color:#9daf7b;
+}
+img{ border:0;
+}
+input{ border:1px solid #CCC;
+}
+a{ text-decoration:none; color:#9daf7b;
+}
+a:hover{ text-decoration:underline;
+}
+i{font-style:normal;
+}
+li{ list-style-type:none;
+}
+.lomain{ width:400px;  height:400px; margin:150px auto;
+}
+.top{ background-image:url(../images/background/backlogin.png); width:285px; height:33px;
+}
+.main{ margin-top:20px; width:400px; height:250px; border-radius: 10px;background-color:#333;
+}
+.main ul{ width:300px; margin:0 auto;
+}
+.main li{ height:35px; line-height:35px;
+}
+.main li input{ width:250px; height:24px;
+}
+#cheli input{ width:15px; height:25px;display:block; margin-top:3px; float:left;
+}
+#cheli i{ display:block; height:20px; float:left; margin-left:5px;
+}
+#subm{ background-image:url(../images/background/sign.png); width:80px; height:28px; border:0px;
+}

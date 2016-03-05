@@ -1,0 +1,136 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;}
+body{width:100%; margin:0 auto;font:12px "宋体";}
+img,input,select{border:0; vertical-align:middle;}
+li{ list-style-type:none;
+}
+.blogs_nav a{text-decoration:none;color:#1D79A6
+}
+.blogs_nav a:hover{ text-decoration:underline;color:#1D79A6
+}
+.blogs_nav a:VISITED{
+	color:#1D79A6
+}
+a{text-decoration:none;color:blue;
+}
+a:hover{ text-decoration:none;
+}
+a:VISITED{
+	color:blue;
+}
+.blogs_top{background-color:#f7f7f7;
+	height:26px; line-height:26px;
+}
+.blogs_top span{ float:right; margin-right:15px;
+}
+.blogs_top div{ margin-left:15px;
+}
+.blogs_main{ width:980px;  margin:0 auto; margin-top:30px;
+}
+/*除了这个图片其他的都不能用,路径错误且无指定图片*/
+.blogs_header{ width:980px; height:133px; background-image:url(../../images/blogs/header.png); background-repeat:no-repeat; color:#007dbd;
+font-size:14px; font-weight:bold; border:1px solid #CCCCCC;
+}
+.blogs_headtop{ padding-top:30px;width:980px; float: left;
+}
+.blogs_headtop li{ margin-left:25px;}
+.blogs_li1{ font-weight:normal; margin-top:4px;
+}
+.blogs_nav a{height:15px; line-height:15px; float:left; text-align:center; margin-left:50px; margin-top:28px; 
+}
+.blogs_maincenter{ width:980px; background-color: #f7ffff; margin-top: 20px; font-size: 24px;
+}
+.blogs_left{font-size: 20px;;clear:both; float:left; margin-top:10px; width:750px; min-height:500px; border:1px solid #000;
+}
+.blogs_center{float:left;width:480px; margin-left:9px;margin-top:10px; min-height:500px;
+}
+.blogs_right{float:left;margin-left:9px; margin-top:10px; width:240px; min-height:500px;height:500px;
+}
+/*left*/
+/*个人信息*/
+.person_data{ width:240px; height:250px; border:1px solid #CCCCCC;
+}
+.person_data1{  height:33px; line-height:33px; background:url(../images/blogs_02.png);color:#007dbd;
+}
+.person_data1 h5{ font-weight:bold; font-size:14px; margin-left:10px;
+} 
+.person_data2{ text-align:center;
+}
+.person_data3 li{ text-align:center; margin-top:10px; }
+/*统计信息*/
+.person_sta{width:240px; height:220px; border:1px solid #CCCCCC; margin-top:5px;
+}
+.person_data2 p{ margin-bottom:10px; font-weight:bold; font-size:12px;
+}
+.person_data2 ul{ width:200px; text-align:left; margin:0 auto; margin-top:30px;
+}
+.person_data2 li{ width:80px; float:left; margin-top:10px;
+}
+.red{ color:#c67d84;
+}
+
+
+/*记录*/
+.person_record{width:240px; height:270px; border:1px solid #CCCCCC;margin-top:5px;
+}
+/*中间*/
+/*个人资料*/
+.person_da{ width:480px; height:120px; border:1px solid #CCCCCC;
+}
+.person_da1 ul{ width:450px; margin:0 auto; margin-top:10px; height:40px; line-height:20px; border-bottom:1px dashed #CCCCCC;
+}
+.person_da1 li{ width:150px; float:left;
+}
+.person_da1 span{ float:right; margin-top:10px; margin-right:5px; color:#c67d84;
+}
+/*动态*/
+.person_trends{width:480px; min-height:120px; border:1px solid #CCCCCC; margin-top:5px;
+}
+.person_trends1 ul{ width:450px;margin:0 auto;margin-top:10px; line-height:20px; margin-bottom:15px;
+}
+.person_trends1 li{ width:450px; border-bottom:1px dashed #CCCCCC;
+}
+.person_trends1 span{ float:right;
+}
+/*日志*/
+.person_log{width:480px; height:120px; border:1px solid #CCCCCC; margin-top:5px;
+}
+.person_log1 ul{ width:450px;margin:0 auto;margin-top:10px; line-height:20px; margin-bottom:15px;
+}
+.person_log1 li{ width:450px; border-bottom:1px dashed #CCCCCC;
+}
+.person_log1 span{ float:right;
+}
+/*帖子*/
+.person_theme{width:480px; height:120px; border:1px solid #CCCCCC; margin-top:5px;
+}
+.person_theme1 ul{ width:450px;margin:0 auto;margin-top:10px; line-height:20px; margin-bottom:15px;
+}
+.person_theme1 li{ width:450px; border-bottom:1px dashed #CCCCCC;
+}
+/*留言板*/
+.person_leaveword{width:480px; min-height:300px; border:1px solid #CCCCCC; margin-top:5px;
+}
+.person_leaveword1 ul{ width:450px;margin:0 auto;margin-top:10px; line-height:20px; margin-bottom:15px;
+}
+.person_leaveword2 { border-bottom:1px dashed #CCCCCC; height:110px;
+}
+.person_leaveword1 textarea{width:450px;height:70px;border:solid 1px #ccc;overflow:auto;
+}
+.liuyan{background-image:url(../images/sousuoicon.png); width:51px; height:26px; margin-top:5px;
+}
+.person_leavewordimg{ margin-top:5px;
+}
+.person_leaveword3{ color:#999;width:370px;
+}
+.person_leaveword3 a{ font-weight:bold; color:#0f68b2;
+}
+.person_leaveword4{word-wrap: break-word; word-break: normal; width:370px; color:#444; min-height:40px;
+}
+/*右边*/
+/*访客*/
+.person_guest{ width:240px; height:270px; border:1px solid #CCCCCC;
+}
+.content{
+	width:978px;height:400px;visibility:hidden;
+}

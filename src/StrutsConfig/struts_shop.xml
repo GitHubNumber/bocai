@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+<package name="shop" namespace="/shop" extends="default">
+		<action name="getShopIndexDate" class="shopController" method="getShopIndexDate">
+			<result>/WEB-INF/jsp/shop/commodity/shopindex.jsp</result>
+		</action>
+		<action name="getMoreShop" class="shopController" method="getMoreShop">
+			<result>/WEB-INF/jsp/shop/commodity/allshop.jsp</result>
+		</action>
+		<action name="addCommodity" class="shopController" method="addCommodity">
+			<result>/WEB-INF/jsp/shop/commodity/buycar.jsp</result>
+		</action>
+		<action name="selAllCommodity" class="shopController" method="selAllCommodity">
+			<result>/WEB-INF/jsp/shop/commodity/buycar.jsp</result>
+		</action>
+		<action name="delCommodity" class="shopController" method="delCommodity">
+			<result>/WEB-INF/jsp/shop/commodity/buycar.jsp</result>
+		</action>
+		<action name="ha*">
+			<result>/WEB-INF/jsp/shop/commodity/{1}.jsp</result>
+		</action>
+		<action name="addBuyRecord" class="shopController" method="addBuyRecord">
+			<result name="success" type="redirectAction">
+				<param name="actionName">getAllRecord</param>
+				<param name="namespace">/shop</param>
+			</result>
+			<result name="KKBOX" type="redirectAction">
+				<param name="flag">1</param>
+				<param name="actionName">selAllCommodity</param>
+			<param name="namespace">/shop</param>
+			</result>
+			<result name="error">/WEB-INF/jsp/commodity/indent.jsp</result>
+		</action>
+		<action name="getAllRecord" class="shopController" method="getAllRecord">
+			<result name="success">/WEB-INF/jsp/shop/commodity/indent.jsp</result>
+			<result name="usernotfound">/WEB-INF/jsp/shop/commodity/indent.jsp</result>
+		</action>
+</package>
+</struts>

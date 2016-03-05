@@ -1,0 +1,41 @@
+@charset "utf-8";
+input{background-color:#FFFFFF; border-style: groove;}
+li{list-style-type:none;}
+.allpage{width:980px;margin: 0 auto;}
+.maintop{ width:980px;
+}
+.top{ height:20px; border-bottom:3px solid #7551d3;}
+.top h3{margin-left:30px;color:#7551d3}
+.top span{ float:right;}
+.middle{width:980px; height:300px; }
+.left{float:left;width:500px; height:300px;color: #999; font-family:"新宋体"; font-size:12px;}
+.left ul{height:150px;}
+.left ul input{ float:left;height:20px; border:1px solid #CCC; vertical-align:middle;}
+.left ul li{line-height:25px; height:40px;vertical-align:middle;}
+.left label{width:130px; float:left; text-align: right; font-size:14px;}
+h3{ color:#999999;font-family:"新宋体"; font-size:12px; font-weight:normal; margin-left:700px;}
+.emailmsg{color:#b695e5;margin-left:130px; margin-top:-15px; font-size:12px; }
+.pwdmsg1{margin-left:285px; margin-top:-22px; height:20px; }
+.pwdmsg12{margin-left:280px; margin-top:-22px;height:20px;}
+.namemsg{margin-left:290px; margin-top:-22px; height:20px;}
+.but{width:200px; height:20px; margin-top:40px; margin-left:230px;}
+.right{ float:left; width:470px; height:300px;border-radius: 10px;}
+.right h3{ width:470px; height:20px; float:left; padding-left:100px;
+}
+.right ul{ float:right;border:2px solid #EAEAEA;height:200px; width:300px;border-radius: 10px; text-align:left;}
+.right ul li{ float:left; width:300px;line-height:30px; height:30px;color: #999999; font-family:"新宋体"; font-size:12px;}
+.right h2{font-family:"新宋体"; font-size:14px; color:#bd8ce5; font-weight:lighter;}
+.right span{ float:left; font-size:18px;color:#7551d3; font-weight:bold; vertical-align:middle;}
+a{ font-size:12px;color:#7551d3; text-decoration:none;}
+#nick{width:200px;}
+#pass{width:80px;}
+.butt input{display:block; width:46px; height:18px; background-image:url(../../images/user/buttonbg.png); float:left; cursor:pointer; color:#FFF;
+}
+#but{ margin-left:10px;
+}
+.chick{ margin-left:5px; margin-top:3px; float:left;
+}
+.left a{ color:#999;
+}
+.vall img{ margin-top:5px;
+}

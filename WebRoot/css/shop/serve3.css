@@ -1,0 +1,21 @@
+@charset "utf-8";
+*{padding:0px;margin:0px;}
+li{list-style-type:none;}
+body{width:100%px;}
+.max_div{ width:947px; margin:0 auto;}
+.top_font{ font-size:14px; font-weight:bold; margin-top:30px;}
+.top_img{margin-top:5px; }
+.user_option{height:200px; margin-top:30px; border-bottom:1px solid #eeeeee;}
+
+.user_option ul{  margin-left:80px;}
+.username_ll{ height:30px; line-height:30px; font-size:14px;}
+.user_number{height:30px; line-height:30px; font-size:14px; text-indent:2em;}
+.user_number input{ width:200px;height:22px; line-height:22px; border:1px solid #999999;}
+.massage_info{ font-size:12px; color:#CCCCCC; text-indent:9em;}
+.sure_button{height:31px; line-height:31px;text-indent:100px; margin-top:20px;}
+.sure_button input{ background:url(../images/user/button_ll_07.jpg); width:89px; height:31px; border:0px; vertical-align:middle}
+.sure_button a{  font-size:12px; color:#0066FF; text-decoration:none; margin-left:10px; vertical-align:middle}
+.down_div{ width:947px; margin-top:20px;}
+.title_lanmu{height:30px; line-height:30px; font-size:14px; font-weight:bold;}
+.question{ font-size:12px;font-weight:bold; color:#666666}
+.answer{font-size:12px; color:#666666 ; margin-top:10px;}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="blogs" namespace="/blogs" extends="struts-default">
+	<!-- log的 应用action -->
+		<action name="log" class="controllerBlogsLog">
+			<result name="list">/WEB-INF/jsp/blogs/BlogsLog.jsp</result>
+			<result name="addLog">/WEB-INF/jsp/blogs/BlogsAddLog.jsp</result>
+			<result >/WEB-INF/jsp/blogs/BlogsIndex.jsp</result>
+			<result name="mylog">/WEB-INF/jsp/blogs/BlogsMyLog.jsp</result>
+			<result name="delectLogById">/WEB-INF/jsp/blogs/BlogsLog.jsp</result>
+			<result name="error">/WEB-INF/jsp/error/error.jsp</result>
+		</action>
+		
+		<!-- mood的应用action -->
+		<action name="mood" class="controllerBlogsMood">
+			<result name="list">/WEB-INF/jsp/blogs/BlogsMood.jsp</result>
+			<result >/WEB-INF/jsp/blogs/BlogsIndex.jsp</result>
+			<result name="delectLogById">/WEB-INF/jsp/blogs/BlogsMood.jsp</result>
+			<result name="error">/WEB-INF/jsp/error/error.jsp</result>
+		</action>
+		<!-- photoGroup的应用action -->
+		<action name="photogroup" class="controllerBlogsPhotoGroup">
+			<result>/WEB-INF/jsp/blogs/photo/BlogsPhotoGroup.jsp</result>
+			<result name="list">/WEB-INF/jsp/blogs/photo/BlogsPhotoGroup.jsp</result>
+		</action>
+		<!-- photo的应用action -->
+		<action name="photo" class="controllerBlogsPhoto">
+			<result>/WEB-INF/jsp/blogs/photo/BlogsPhoto.jsp</result>
+			<result name="list">/WEB-INF/jsp/blogs/photo/BlogsPhoto.jsp</result>
+			<result name="myphoto">/WEB-INF/jsp/blogs/photo/BlogsMyPhoto.jsp</result>
+			<result name="togoAdd">/WEB-INF/jsp/blogs/photo/BlogsPhotoUpload.jsp</result>
+		</action>
+		<action name="endAddPhoto" class="controllerBlogsPhoto" method="selectPhotoByGroupId">
+			<result name="list">/WEB-INF/jsp/blogs/photo/BlogsPhoto.jsp</result>
+		</action>
+		<!-- 上传照片 -->
+		<action name="upload" class="controllerBlogsPhoto" method="addPhoto">
+			<interceptor-ref name="fileUpload">
+				<param name="maximumSize">512000</param>
+				<param name="allowedExtensions">jpg,png,gif</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="addphoto" >/WEB-INF/jsp/blogs/photo/BlogsPhoto.jsp</result>
+			<result name="input" >/WEB-INF/jsp/blogs/photo/BlogsPhotoUpload.jsp</result>
+			<result name="error">/WEB-INF/jsp/error/error.jsp</result>
+		</action>
+		<!-- 上传分組 -->
+		<action name="uploadGroup" class="controllerBlogsPhotoGroup" method="addGroup">
+			<interceptor-ref name="fileUpload">
+				<param name="maximumSize">5120000</param>
+				<param name="allowedExtensions">jpg,png,gif</param>
+			</interceptor-ref>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="list" >/WEB-INF/jsp/blogs/photo/BlogsPhotoGroup.jsp</result>
+			<result name="input">/WEB-INF/jsp/error/error.jsp</result>
+			<result name="error">/WEB-INF/jsp/error/error.jsp</result>
+		</action>
+		<!-- comment的应用action -->
+		<action name="comment" class="controllerBlogsComment">
+			<result>/WEB-INF/jsp/blogs/BlogsIndex.jsp</result>
+			<result name="log">/WEB-INF/jsp/blogs/BlogsMyLog.jsp</result>
+			<result name="photo">/WEB-INF/jsp/blogs/photo/BlogsMyPhoto.jsp</result>
+			<result name="message" type="redirectAction">getPaging</result>
+			<result name="mood" type="redirectAction">getMood</result>
+		</action>
+		
+		<!-- comment的应用action -->
+		<action name="messages" class="controllerBlogsMessages">
+			<result name="addMessages" type="redirectAction">getPaging</result>
+			<result name="list" type="redirectAction">getPaging</result>
+			<result>/WEB-INF/jsp/blogs/BlogsMessages.jsp</result>
+			<result name="togoAdd">/WEB-INF/jsp/blogs/BlogsMessages.jsp</result>
+			<result name="PageSuccess">/WEB-INF/jsp/blogs/BlogsMessages.jsp</result>
+				<result name="error">/WEB-INF/jsp/error/error.jsp</result>
+		</action>
+		<action name="getPaging" class="controllerBlogsMessages" method="getPaging">
+			<result name="PageSuccess">/WEB-INF/jsp/blogs/BlogsMessages.jsp</result>
+			<result name="error">/WEB-INF/jsp/error/error.jsp</result>
+		</action>
+		<action name="getMood" class="controllerBlogsMood" method="getFenYe">
+			<result name="list">/WEB-INF/jsp/blogs/BlogsMood.jsp</result>
+			<result name="error">/WEB-INF/jsp/error/error.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,19 @@
+.p_all{width: 980px; margin-top: 10px;}
+.p_left{width: 100px;display:block;float: left;}
+.p_left a{width: 23px;height:43px; display:block; background-image: url("../../images/blogs/left1.png");margin-top: 300px;}
+.p_left a:HOVER{width: 23px;height:43px; display:block; background-image: url("../../images/blogs/left2.png");margin-top: 300px;}
+.p_center{width: 500px;min-height:300px;  float: left;}
+.p_center img{max-width: 500px;}
+.p_right{width: 100px;display:block; float: left;}
+.p_right a{width: 23px;height:43px; display:block; background-image: url("../../images/blogs/right1.png");margin-top: 300px;float: right;}
+.p_right a:HOVER{width: 23px;height:43px; display:block; background-image: url("../../images/blogs/right2.png");margin-top: 300px;float: right;}
+.p_info{width: 260px; float: left;}
+.p_info ul li{margin-left: 5px; margin-top: 5px;}
+.myfrom{float: left;margin-top: 10px;border: 1px solid #e6e6e6; width: 280px;}
+.message{width: 230px; float: left; margin-top: 5px; border: 1px solid #e6e6e6; width: 280px;}
+.comentAll{width: 270px; float: left;margin-top: 10px;padding-left: 10px;border: 1px solid #e6e6e6;}
+.left{float: left;padding-left: 5px;padding-top: 5px;margin-top: 5px;}
+.userid{float: left;}
+.comment{float: left;width: 150px;}
+
+

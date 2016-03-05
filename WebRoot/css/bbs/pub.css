@@ -1,0 +1,15 @@
+* {margin: 0px;padding: 0px;}
+body{width:100%; margin:0 auto;font:12px "宋体"; overflow:visible;}
+TABLE {
+	BORDER-COLLAPSE: collapse; EMPTY-CELLS: show
+}
+li{ list-style-type:none;}
+img,input,select{border:0; vertical-align:middle;}
+a{color:#666; text-decoration:none;}
+a:hover{text-decoration:underline;}
+#spill{
+white-space:nowrap;
+text-overflow:ellipsis;
+-o-text-overflow:ellipsis;
+overflow: hidden;
+}

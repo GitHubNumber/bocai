@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="bbs" namespace="/bbs" extends="default">
+		<interceptors>
+		<interceptor name="permission" class="com.mango.web.interceptor.PermissionInterceptor"/>
+		<interceptor-stack name="permissionStack">
+			<interceptor-ref name="defaultStack"/>
+			<interceptor-ref name="permission"/>
+			<interceptor-ref name="token"/>
+		</interceptor-stack>
+		</interceptors>
+		<action name="get_*">
+			<result>/WEB-INF/jsp/bbs/{1}.jsp</result>
+		</action>
+		<action name="index" class="actionBBS" method="topicTitle">
+			<result name="index">/WEB-INF/jsp/bbs/mettertitle.jsp</result>
+		</action>
+		<action name="get_comment" class="actionBBS" method="metter">
+			<result name="metter">/WEB-INF/jsp/bbs/metter.jsp</result>
+		</action>
+		<action name="get_sendmetter">
+			<result>/WEB-INF/jsp/bbs/sendmetter.jsp</result>
+		</action>
+		<action name="bulidTopic" class="actionBBS" method="bulidTopic">
+			<interceptor-ref name="permissionStack"/>
+			<result name="invalid.token" type="redirectAction">
+				<param name="actionName">index</param>
+				<param name="namespace">/bbs</param>
+			</result>
+		</action>
+		<action name="addcomment" class="actionBBS" method="addComment">
+			<interceptor-ref name="permissionStack"/>
+			<result name="invalid.token" type="redirectAction">
+				<param name="actionName">index</param>
+				<param name="namespace">/bbs</param>
+			</result>
+			<result type="redirectAction">
+				<param name="actionName">get_comment</param>
+				<param name="namespace">/bbs</param>
+				<param name="topicTitle.id">${topicTitle.id}</param>
+			</result>
+		</action>
+	</package>
+</struts>

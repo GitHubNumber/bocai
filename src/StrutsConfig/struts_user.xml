@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="user" namespace="/user" extends="default">
+		<action name="operate" class="actionUser">
+			<result>/WEB-INF/jsp/test.jsp</result>
+		</action>
+		<action name="login" class="actionUser" method="login">
+			<interceptor-ref name="defaultStack"/>
+			<interceptor-ref name="token"/>
+			<result>/WEB-INF/jsp/user/login.jsp</result>
+			<result name="invalid.token">/WEB-INF/jsp/error/error.jsp</result>
+		</action>
+		<action name="register" class="actionUser" method="register">
+			<interceptor-ref name="defaultStack"/>
+			<interceptor-ref name="token"/>
+		</action>
+		<action name="get*">
+		<result>/WEB-INF/jsp/user/{1}.jsp</result>
+		</action>
+	</package>
+	
+	<package name="ajax" namespace="/Chick" extends="json-default">
+		<action name="AjaxValue" class="actionUser">
+			<result name="success" type="json" />
+		</action>
+	</package>
+</struts>

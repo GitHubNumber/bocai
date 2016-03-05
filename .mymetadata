@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Mango_BBS"
+  id="myeclipse.1361801317700"
+  context-root="/Mango_BBS"
+  j2ee-spec="5.0"
+  archive="Mango_BBS.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

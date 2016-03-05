@@ -1,0 +1,69 @@
+@charset "utf-8";
+* {margin: 0px;padding: 0px;}
+body{width:100%; margin:0 auto;font:12px "宋体";}
+img,input,select{border:0; vertical-align:middle;}
+li{ list-style-type:none;
+}
+a{text-decoration:none;color:blue;
+}
+a:hover{ text-decoration:none;
+}
+a:VISITED{
+	color:blue;
+}
+.blogs_nav a{text-decoration:none;color:#1D79A6
+}
+.blogs_nav a:hover{ text-decoration:underline;color:#1D79A6
+}
+.blogs_nav a:VISITED{
+	color:#1D79A6
+}
+.blogs_top{border-bottom:1px solid #CCC; background-color:#f7f7f7;
+	height:26px; line-height:26px;
+}
+.blogs_top span{ float:right; margin-right:15px;
+}
+.blogs_top div{ margin-left:15px;
+}
+.blogs_main{ width:980px;  margin:0 auto; margin-top:30px;
+}
+/*除了这个图片其他的都不能用,路径错误且无指定图片*/
+.blogs_header{ width:980px; height:133px; background-image:url(../../images/blogs/header.png); background-repeat:no-repeat; color:#007dbd;
+font-size:14px; font-weight:bold; border:1px solid #CCCCCC;
+}
+.blogs_headtop{ padding-top:30px;width:980px; float: left;
+}
+.blogs_headtop li{ margin-left:25px;}
+.blogs_li1{ font-weight:normal; margin-top:4px;
+}
+.blogs_nav a{height:15px; line-height:15px; float:left; text-align:center; margin-left:50px; margin-top:28px; 
+}
+.blogs_maincenter{ width:980px; background-color: #f7ffff; margin-top: 20px; font-size: 24px;
+}
+.blogs_left{padding-top:0px; font:16px "宋体";clear:both; float:left; margin-top:10px; width:700px; min-height:400px; border:1px solid #000;
+}
+.blogs_center{float:left;width:280px; margin-left:9px;margin-top:10px; min-height:400px; border: 1px solid #000;
+font:16px "宋体";text-align: center;
+}
+.content{width:700px;height:150px;visibility:hidden;}
+.asearch{ width:980px; height:34px; border:1px solid #CCC; background-color:#f2f2f2; margin-top:20px;
+}
+.asearch li{ float:left;
+}
+#zhuye{ margin-top:8px; margin-left:15px;
+}
+#zhexian{ width:77px; height:34px; background-image:url(../../images/bbs/icon12.png); margin-left:5px;
+}
+#zhexian2{width:68px; height:34px; background-image:url(../../images/bbs/icon12.png); margin-left:5px;}
+.asearch a{color:#333; margin-top:10px; margin-left:15px; font:12px "宋体"; display:block; height:18PX; line-height:18PX;
+}
+.asearchrigeht{ float:right;
+}
+.asearchrigeht li{ margin-right:5px; margin-top:5px;
+}
+.atitlemetter{ height:80px; width:980px; border:1px solid #CCC; margin-top:10px;
+}
+.atitlemetter span{ float:right; margin-right:10px;
+}
+.atitlemetter li{ margin-top:5px; margin-left:10px;
+}

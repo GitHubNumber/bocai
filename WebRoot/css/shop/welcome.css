@@ -1,0 +1,54 @@
+* {margin: 0px;padding: 0px;}
+body{ width:1000px; background-color:#f5f0e9; margin-left:20px;
+}
+img{ border:0;
+}
+li{ list-style-type:none;
+}
+i{ font-style:normal;
+}
+a{ text-decoration:none;
+}
+a:hover{ background-color:#747373;
+}
+.top{ height:50px; line-height:50px;
+}
+.commodity{display:block; text-align:center; width:130px; height:30px; line-height:30px; background-color:#8c8c8c; border:1px solid #d5d5d5; color:#FFF; border-radius: 3px; font-weight:bold;
+}
+.top ul{ width:500px; height:50px;
+}
+.top li{ height:50px; float:left; margin-left:10px; margin-top:10px;
+}
+.demo{ clear:both; width:1000px; height:250px; border:1px solid #CCCCCC;border-radius:3px;
+}
+.demo_top{height:33px; line-height:33px; background-color:#8c8c8c;color:#FFF;border-radius: 3px;
+}
+.person_data1 h5{ font-weight:bold; font-size:14px; float:left; margin-left:10px;
+} 
+.demo_metter{ text-align:left;
+}
+.demo_metter li{ width:450px; height:30px; line-height:30px;border-bottom:1px dashed #CCCCCC; margin-left:5px;
+}
+.demo_metter span{ float:right;vertical-align:middle;
+}
+.checkall{ margin-top:4px;
+}
+.ul1{ width:500px; float:left;
+}
+.ul1 label{ width:120px; float:left;
+}
+.ul2{ width:500px;float:left;
+}
+.ul2 label{ width:120px; float:left;
+}
+.checkall{ display:block; background-image:url(../images/background/back_icon1.png); width:22px; height:22px; 
+}
+.checkall:hover{ background-color:inherit;
+}
+
+.first{ width:1000px; height:270px;
+}
+.dome1{clear:both; width:700px; height:210px; border:1px solid #CCCCCC;border-radius: 3px;float:left;
+}
+.clock{ float:right;width:270px; height:210px; background-color:#8c8c8c; padding-left:5px; padding-top:5px;border-radius: 3px;
+}

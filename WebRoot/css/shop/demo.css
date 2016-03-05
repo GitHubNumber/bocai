@@ -1,0 +1,102 @@
+@charset "utf-8";
+body{ width:1000px; background-color:#f5f0e9; margin-left:20px;
+}
+TABLE {
+	BORDER-COLLAPSE: collapse; EMPTY-CELLS: show ;
+}
+img{ border:0;
+}
+li{ list-style-type:none;
+}
+a{ text-decoration:none;
+}
+
+
+.commodity{display:block; text-align:center; width:130px; height:30px; line-height:30px; background-color:#8c8c8c; border:1px solid #d5d5d5; color:#FFF; border-radius: 3px; font-weight:bold; float:left; cursor:pointer; margin-left:10px;
+}
+.commodity:hover{ background-color:#747373;
+}
+.demo_metter{ text-align:left; width: 1000px;
+}
+.demo_metter li{ width:450px; height:30px; line-height:30px;border-bottom:1px dashed #CCCCCC; margin-left:5px;
+}
+.demo_metter span{ float:right;vertical-align:middle;
+}
+.checkall{ margin-top:4px;
+}
+.ul1{ width:500px; float:left;
+}
+.ul1 label{ width:120px; float:left;
+}
+.ul2{ width:500px;float:left;
+}
+.ul2 label{ width:120px; float:left;
+}
+.checkall{ display:block; background-image:url(../images/background/back_icon1.png); width:22px; height:22px; 
+}
+.checkall:hover{ background-color:inherit;
+}
+.demo1{clear:both; width:400px; height:100px; border:1px solid #CCCCCC;border-radius: 3px;float:left;
+}
+.demo1 li{ width:300px;
+}
+
+.demo3{clear:both; width:1000px; height:700px; border:1px solid #CCCCCC;border-radius: 3px;float:left;
+}
+.demo3 .demo_metter{ height:500px;
+}
+/*Mytable*/
+.Mytable{ width:1000px; margin:10px auto;
+}
+.Mytable .tabletop{ height:42px; background-image:url(../images/background/table_bg.png);
+}
+.table span{ float:right;
+}
+.tablemain{ width锛�98px; border:1px solid #616161;
+}
+.tablemain table{ width:998px;   text-align:center; border-top:1px solid #666; border-bottom:1px solid #666;
+}
+.center{ text-align:center;
+}
+.tablemain th{ height:45px;
+}
+.tablemain td{ height:40px; line-height:40px;
+}
+.operate{ height:22px;
+}
+.operate a{ width:22px; height:22px; display:block; float:left; margin-top:9px;
+}
+.operate a:hover{ background-color:inherit;
+}
+.update{ background-image:url(../images/background/back_icon4.png);
+}
+.delete{ background-image:url(../images/background/back_icon2.png);
+}
+.select{ background-image:url(../images/background/back_icon3.png);
+}
+
+.operateul{ clear:both; width:100px; height:40px; line-height:40px; margin:0 auto;
+}
+.operateul li{float:left;width:22px; height:22px; line-height:22px;text-align:center; border:0px;
+cursor:pointer;
+}
+
+.table_end{ height:90px; line-height:90px;border-bottom:1px solid #CCC;
+}
+.table_end select{ height:30px; line-height:30px; font-size:16px; float:left; margin-left:10px;
+}
+.end_main{ height:30px; width:989px; margin-top:30px; 
+}
+.end_a{  float:right; width:300px; height:30px; line-height:30px; width:200px; margin-right: 10px;
+}
+.end_ul{ clear:both; width:200px; height:21px; line-height:21px;
+}
+.end_ul li{float:left;width:21px; height:20px; line-height:20px;  border:1px solid #ddd;text-align:center;border-radius: 3px;
+cursor:pointer;
+}
+.end_ul li:hover{ background-color:#CCC; border:1px solid #333;
+}
+#prev1{ width:50px; height:20px; font-size:12px;
+}
+#prev2{ width:50px; height:20px; font-size:12px;
+}

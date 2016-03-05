@@ -1,0 +1,58 @@
+@charset "utf-8";
+*{margin: 0px;padding: 0px;}
+img,input,select {vertical-align:middle;}
+li{list-style-type:none}
+body{width:100%; background:url(../../images/shop/shop/shoppage/bg.jpg); font:14px}
+
+.BUYCARTOPBOXTOP{ height:9px; background:url(../../images/shop/shoppage/BGTOP.jpg) no-repeat;width:990px; margin:0 auto;}
+.BUYCARTOPBOXMAIN{background:url(../../images/shop/shoppage/BGMAIN.jpg) repeat-y;height:1010px; width:990px; margin:0 auto;}
+.BUYCARTOPBOXBOTTOM{ background:url(../../images/shop/shoppage/BGBOTTOM.jpg) no-repeat;width:990px; height:48PX;margin:0 auto; line-height:48px;}
+
+.BUYCARTOPBOXMAIN_1{ width:200px;overflow:hidden; float:left}
+#BUYCARTOPBOXMAIN_1 img{ margin:10px; border:1px #FFF solid;}
+.BUYCARTOPBOXMAIN_1 ul{ float:left}
+#BUYCARTOPBOXMAIN_2 li{ margin-top:10px; width:120px}
+#BUYCARTOPBOXMAIN_2 li a{font-size:12px; color:#666;text-decoration:none; margin-left:20px}
+#BUYCARTOPBOXMAIN_2 li a:hover{ text-decoration:underline; color:#F00;}
+#BUYCARTOPBOXMAIN_2 img{width:18px; height:18px;}
+#BUYCARTOPBOXSPAN_1{color:#fe890b; font-size:14px; font-weight:bold; line-height:25px}
+#BUYCARTOPBOXSPAN_2 img{ width:13px; height:17px;}
+
+#BUYCARTOPBOXMAINUL{ background:url(../../images/shop/shoppage/THROWSUL_07.jpg) no-repeat; width:202px; height:120px; font:12px/29px "宋体"; color:#666; text-align:center}
+#BUYCARTOPBOXMAINLI{background:url(../../images/shop/shoppage/dot_03.jpg); height:29px; width:130px; margin-left:35px; margin-top:1px}
+#BUYCARTOPBOXMAINUL img{ width:17px; height:17px; margin-right:10px}
+
+.BUYCARTOPBOXMAIN_2{ width:772px; height:1010px;float:left; margin-left:10px;}
+.BUYCARTOPBOXMAIN_2_TOP{ background:url(../../images/shop/shoppage/all_shop_03.jpg); width:772PX; height:43px;line-height:43px;}
+.BUYCARTOPBOXMAIN_2_TOP a{ float:right; font-size:12px; font-weight:bold; text-decoration:none; margin-right:12px; color:#ffffff; height:12px; margin-top: 14px; line-height: 15px;}
+.BUYCARTOPBOXMAIN_2_CENTER{ background:url(../../images/shop/shoppage/all_shop_07.jpg); width:757px; height:74px; margin-left:auto; margin-right:auto; margin-top:30px;}
+.BUYCARTOPBOXMAIN_2_CENTER a{font-size:12px;text-decoration:none;color:#666666; margin-left:20px; }
+.BUYCARTOPBOXMAIN_2_CENTER span{ float:left; height:20px; margin-top:43px; margin-left:70px; }
+#a_back_color{ background:#FF9900; color:#FFFFFF;}
+#all_shop_font{ font-size:12px; color:#666666; margin-top:20px; text-indent:1em; width:100%px;}
+
+.down_down2 div{ float:left; width:185px; height:192px; background:url(../../images/shop/shoppage/shop_back_03.jpg); margin-right:4px; margin-left:4px; margin-top:15px;}
+#shop_img{ margin-top:6px; margin-left:7px; clear: both; width:170px; height:108px; margin-right: 0px;}
+.interest_down_ul{width:185px}
+.interest_down_ul li{ font-size:12px; color:#999999; float:left;}
+#down_ul_li1{width:185px; height:20px; line-height:20px; text-indent:1em; color:#666666}
+#down_ul_li2{ width:30px; margin-top:10px; margin-left:28px;}
+#down_ul_li3{ width:100px; height:50px;margin-left:20px; text-align:center; line-height:50px;}
+#li2_li1{ font-size:16px; color:#FF0000}
+#li2_li2{ margin-top:4px; margin-left:9px;}
+#down_ul_li3 input{ width:61px; height:34px; border:1px solid #92a5c0; color:#09539e; margin-top:10px; margin-left:20px;}
+.BUYCARTOPBOXBOTTOM{ text-align:right;}
+.BUYCARTOPBOXBOTTOM a{ text-decoration:none; color:#666666; margin-left:3px; margin-right:3px;}
+.up_page{ background:url(../../images/shop/shoppage/backleft_07.jpg);width:22px; height:21px; border:0px;margin-right:5px; margin-left:5px;}
+.down_page{ background:url(../../images/shop/shoppage/backright_07.jpg); width:22px; height:21px;border:0px; margin-right:15px; margin-left:5px;}
+
+#img_2_img{ margin-top:10px; margin-left:10px; width:200px; height:30px; line-height:30px; float:left}
+.down_down_right { width:199px; height:396px; float:left}
+.down_down_right li{ height:70px; width:170px; margin-bottom:10px; float:right}
+.down_down_right img{ margin-top:10px; float:left;}
+.down_down_right div{ width:70px; height:54px; float:left;margin-top:10px;text-indent:5px;}
+.down_down_right a{ font-size:12px; color:#999999; text-decoration:none;}
+#shop_img div{background:#fff;height:0px; width:170px;margin-top: 110px; margin-left: 0px;}
+#shop_img a{font-size: 12px; color: #666666; margin-top: 10px; margin-left: 5px; font-weight: bold; text-decoration: none; float: left;}
+#shop_img a:hover{text-decoration:underline;}
+#BUYCARTOPBOXMAINUL a{ text-decoration: none;color: #666666;}
